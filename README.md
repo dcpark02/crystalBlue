@@ -1,4 +1,4 @@
-# CrystalBlue Chatbot WebApp
+# crystalBlue AI WebApp
 
 ## _Project description_ 
 crystalBlue AI WebApp is a sophisticated chatbot application designed to address inquiries related to ESG (Environmental, Social, and Governance) and SDG (Sustainable Development Goals). The platform boasts robust data visualization capabilities, empowering users to monitor ESG progress through interactive timeline charts while providing access to detailed ESG metrics and formulas.
