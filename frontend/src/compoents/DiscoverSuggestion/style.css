@@ -1,0 +1,123 @@
+.discover-suggestion {
+    height: 97px;
+    position: relative;
+    width: 707px;
+  }
+  
+  .discover-suggestion .rectangle-6 {
+    background-color: #202025;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 96px;
+    width: 707px;
+  }
+  
+  .discover-suggestion .frame-26 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    height: 64px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 707px;
+  }
+  
+  .discover-suggestion .how-was-apple {
+    color: #ceced2;
+    font-family: "Open Sans", Helvetica;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 17.6px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .discover-suggestion .apple-has-made {
+    color: #6e6e76;
+    font-family: "Open Sans", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    height: 53px;
+    letter-spacing: 0;
+    line-height: 15px;
+    margin-bottom: -7px;
+    position: relative;
+    width: 707px;
+  }
+  
+  .discover-suggestion .frame-27 {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    height: 18px;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    top: 71px;
+    width: 118px;
+  }
+  
+  .discover-suggestion .frame-28 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 2px;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .discover-suggestion .img-3 {
+    height: 12px;
+    position: relative;
+    width: 12px;
+  }
+  
+  .discover-suggestion .element-5 {
+    color: #6e6e76;
+    font-family: "Open Sans", Helvetica;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .discover-suggestion .frame-29 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 2px;
+    position: relative;
+  }
+  
+  .discover-suggestion .element-6 {
+    color: #63636a;
+    font-family: "Open Sans", Helvetica;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 17.6px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .discover-suggestion .frame-30 {
+    height: 10px;
+    position: relative;
+    width: 10px;
+  }
+  

@@ -1,0 +1,349 @@
+[
+    {
+      "value": 1,
+      "name": "Environment",
+      "path": "Environment",
+      "itemStyle": {
+        "color": "rgb(63, 144, 76)",
+        "font": "Tahoma"
+      },
+      "label": {
+        "textStyle": {
+          "fontFamily": "Tahoma",
+          "color": "rgb(63, 144, 76)"
+        }
+      },
+      "children": [
+        {
+          "value": 1,
+          "name": "14. Life Below Water",
+          "path": "Environment/LifeBelowWater",
+          "itemStyle": {
+            "color": "#0A74DA",
+            "font": "Tahoma"
+          },
+          "children": []
+        },
+        {
+          "value": 1,
+          "name": "12. Responsible Consumption and Production",
+          "path": "Environment/ResponsibleConsumptionAndProduction",
+          "itemStyle": {
+            "color": "#BF8B2E",
+            "font": "Tahoma"
+          },
+          "children": []
+        },
+        {
+          "value": 1,
+          "name": "13. Climate Action",
+          "path": "Environment/ClimateAction",
+          "itemStyle": {
+            "color": "#3F7E44",
+            "font": "Tahoma"
+          },
+          "children": []
+        },
+        {
+          "value": 1,
+          "name": "11. Sustainable Cities and Communities",
+          "path": "Environment/SustainableCitiesAndCommunities",
+          "itemStyle": {
+            "color": "#FD9D24",
+            "font": "Tahoma"
+          },
+          "children": []
+        },
+        {
+          "value": 1,
+          "name": "7. Affordable and Clean Energy",
+          "path": "Environment/AffordableAndCleanEnergy",
+          "itemStyle": {
+            "color": "#FCC30B",
+            "font": "Tahoma"
+          },
+          "children": []
+        },
+        {
+          "value": 1,
+          "name": "6. Clean Water and Sanitation",
+          "path": "Environment/CleanWaterAndSanitation",
+          "itemStyle": {
+            "color": "#26BDE2",
+            "font": "Tahoma"
+          },
+          "children": []
+        },
+        {
+          "value": 1,
+          "name": "15. Life on Land",
+          "path": "Environment/LifeOnLand",
+          "itemStyle": {
+            "color": "#56C02B",
+            "font": "Tahoma"
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "value": 1,
+      "name": "Social",
+      "path": "Social",
+      "itemStyle": {
+        "color": "#FF5733",
+        "font": "Tahoma"
+      },
+      "label": {
+        "textStyle": {
+          "fontFamily": "Tahoma",
+          "color": "#FFF"
+        }
+      },
+      "children": [
+        {
+          "value": 1,
+          "name": "4. Quality Education",
+          "path": "Social/QualityEducation",
+          "itemStyle": {
+            "color": "#C5192D",
+            "font": "Tahoma"
+          },
+          "children": []
+        },
+        {
+          "value": 1,
+          "name": "2. Zero Hunger",
+          "path": "Social/ZeroHunger",
+          "itemStyle": {
+            "color": "#DDA63A",
+            "font": "Tahoma"
+          },
+          "children": []
+        },
+        {
+          "value": 1,
+          "name": "3. Good Health and Well-being",
+          "path": "Social/GoodHealthAndWellbeing",
+          "itemStyle": {
+            "color": "#4C9F38",
+            "font": "Tahoma"
+          },
+          "children": []
+        },
+        {
+          "value": 1,
+          "name": "1. No Poverty",
+          "path": "Social/NoPoverty",
+          "itemStyle": {
+            "color": "#E5243B",
+            "font": "Tahoma"
+          },
+          "children": [
+            {
+              "value": 1,
+              "data": "Target 1.1",
+              "name": "Eradicate extreme poverty",
+              "path": "Social/NoPoverty/EradicateExtremePoverty",
+              "itemStyle": {
+                "color": "#E5243B",
+                "font": "Tahoma"
+              },
+              "children": [
+                {
+                  "value": 1,
+                  "data": "Target 1.1.1",
+                  "name": "Share below the international poverty line",
+                  "path": "Social/NoPoverty/EradicateExtremePoverty/Sharebelowtheinternationalpovertyline",
+                  "itemStyle": {
+                    "color": "#E5243B",
+                    "font": "Tahoma"
+                  }
+                }
+              ]
+            },
+            {
+              "value": 1,
+              "data": "Target 1.2",
+              "name": "Reduce poverty by at least 50%",
+              "path": "Social/NoPoverty/ReducePovertyByAtLeast50",
+              "itemStyle": {
+                "color": "#E5243B",
+                "font": "Tahoma"
+              },
+              "children": [
+                {
+                  "value": 1,
+                  "data": "Target 1.2.1",
+                  "name": "Share below the national poverty line",
+                  "path": "Social/NoPoverty/EradicateExtremePoverty/Sharebelowthenationalpovertyline",
+                  "itemStyle": {
+                    "color": "#E5243B",
+                    "font": "Tahoma"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "value": 1,
+          "name": "5. Gender Equality",
+          "path": "Social/GenderEquality",
+          "itemStyle": {
+            "color": "#FF3A21",
+            "font": "Tahoma"
+          },
+          "children": []
+        },
+        {
+          "value": 1,
+          "name": "6. Clean Water and Sanitation",
+          "path": "Social/CleanWaterAndSanitation",
+          "itemStyle": {
+            "color": "#26BDE2",
+            "font": "Tahoma"
+          },
+          "children": []
+        },
+        {
+          "value": 1,
+          "name": "8. Decent Work and Economic Growth",
+          "path": "Social/DecentWorkAndEconomicGrowth",
+          "itemStyle": {
+            "color": "#A21942",
+            "font": "Tahoma"
+          },
+          "children": []
+        },
+        {
+          "value": 1,
+          "name": "9. Industry, Innovation, and Infrastructure",
+          "path": "Social/IndustryInnovationAndInfrastructure",
+          "itemStyle": {
+            "color": "#FD6925",
+            "font": "Tahoma"
+          },
+          "children": []
+        },
+        {
+          "value": 1,
+          "name": "10. Reduced Inequalities",
+          "path": "Social/ReducedInequalities",
+          "itemStyle": {
+            "color": "#DD1367",
+            "font": "Tahoma"
+          },
+          "children": []
+        },
+        {
+          "value": 1,
+          "name": "12. Responsible Consumption and Production",
+          "path": "Social/ResponsibleConsumptionAndProduction",
+          "itemStyle": {
+            "color": "#BF8B2E",
+            "font": "Tahoma"
+          },
+          "children": []
+        },
+        {
+          "value": 1,
+          "name": "16. Peace, Justice, and Strong Institutions",
+          "path": "Social/PeaceJusticeStrongInstitutions",
+          "itemStyle": {
+            "color": "#00689D",
+            "font": "Tahoma"
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "value": 1,
+      "name": "Governance",
+      "path": "Governance",
+      "itemStyle": {
+        "color": "#FF5733",
+        "font": "Tahoma"
+      },
+      "label": {
+        "textStyle": {
+          "fontFamily": "Tahoma",
+          "color": "#FFF"
+        }
+      },
+      "children": [
+        {
+          "value": 1,
+          "name": "17. Partnership for the Goals",
+          "path": "Governance/PartnershipForTheGoals",
+          "itemStyle": {
+            "color": "#19486A",
+            "font": "Tahoma"
+          },
+          "children": []
+        },
+        {
+          "value": 1,
+          "name": "16. Peace, Justice, and Strong Institutions",
+          "path": "Governance/PeaceJusticeStrongInstitutions",
+          "itemStyle": {
+            "color": "#00689D",
+            "font": "Tahoma"
+          },
+          "children": []
+        },
+        {
+          "value": 1,
+          "name": "13. Climate Action",
+          "path": "Governance/ClimateAction",
+          "itemStyle": {
+            "color": "#3F7E44",
+            "font": "Tahoma"
+          },
+          "children": []
+        },
+        {
+          "value": 1,
+          "name": "11. Sustainable Cities and Communities",
+          "path": "Governance/SustainableCitiesAndCommunities",
+          "itemStyle": {
+            "color": "#FD9D24",
+            "font": "Tahoma"
+          },
+          "children": []
+        },
+        {
+          "value": 1,
+          "name": "9. Industry, Innovation, and Infrastructure",
+          "path": "Governance/IndustryInnovationAndInfrastructure",
+          "itemStyle": {
+            "color": "#FD6925",
+            "font": "Tahoma"
+          },
+          "children": []
+        },
+        {
+          "value": 1,
+          "name": "8. Decent Work and Economic Growth",
+          "path": "Governance/DecentWorkAndEconomicGrowth",
+          "itemStyle": {
+            "color": "#A21942",
+            "font": "Tahoma"
+          },
+          "children": []
+        },
+        {
+          "value": 1,
+          "name": "5. Gender Equality",
+          "path": "Governance/GenderEquality",
+          "itemStyle": {
+            "color": "#FF3A21",
+            "font": "Tahoma"
+          },
+          "children": []
+        }
+      ]
+    }
+  ]
+  

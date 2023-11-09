@@ -1,0 +1,179 @@
+
+  .esg-profile-header {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.esg-profile-header .header-name{
+  color: #026de3;
+    font-family: "Open Sans", Helvetica;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 13.2px;
+}
+
+.esg-profile-icon {
+    height: 16px;
+    width: 16px;
+}
+
+.esg-profile-company {
+    background-color: #202025;
+    border-radius: 5px;
+    height: 230px;
+    width:840px;
+    display: flex;
+    gap: 20px;
+    padding: 11px;
+    
+}
+
+.company-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 30%;
+    align-items: center;
+    margin: auto 0;
+}
+
+.company-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.company-name {
+    color: #ceced2;
+    font-family: "Open Sans", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.update-time {
+    color: #ceced2;
+    font-family: "Open Sans", Helvetica;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.data-section {
+  margin: auto 0;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.data-header, .data-values {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+/* Additional styling for other elements as in your initial CSS can be added here */
+.esg-profile-company .data-header{
+  color: #ceced2;
+  font-family: "Open Sans-Bold", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+
+  letter-spacing: 0;
+  line-height: 14.3px;
+  border-bottom: 1px solid #ceced2;  /* Horizontal division line */
+  
+  text-align: center;  /* This ensures the text within each cell is centered */
+
+}
+
+
+.esg-profile-company .data-header > span:first-child,
+.esg-profile-company .data-values > span:first-child {
+    border-right: 1px solid #ceced2;  /* Vertical division line */
+}
+/* Ensure borders do not affect width */
+.data-header, .data-values, .data-header > span, .data-values > span {
+  box-sizing: border-box;
+}
+.esg-profile-company .data-values{
+  color: #ceced2;
+  font-family: "Open Sans-SemiBold", Helvetica;
+  font-size: 12px;
+  font-weight: 600;
+  
+  letter-spacing: 0;
+  line-height: 13.2px;
+
+  text-align: center;
+   margin-bottom: 15px;
+
+}
+
+.esg-profile-company .data-changes {
+  display: block;
+    line-height: 1;
+}
+.esg-profile-company .change-container {
+  display: inline-block;
+  margin-left: 8px; /* Adjust for space between rating and change */
+  vertical-align: middle;
+}
+
+
+.esg-profile-company .percentage {
+  display: block;
+  font-size: 11px; /* Adjust this size if needed */
+  line-height: 1;
+}
+
+
+.esg-profile-company .data-ratings {
+  
+   margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  margin-left: 45px;
+}
+
+.esg-profile-company .data-ratings > span {
+  color: #ceced2;
+  font-family:"Open Sans", Helvetica;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: left;
+ 
+  line-height: 1.2; /* Adjust based on how the wrapping looks */
+}
+
+
+.esg-profile-company .thrid-party-data-rating-title{
+  color: #ceced2;
+  font-family: "Open Sans", Helvetica;
+  font-size: 13px;
+  font-weight: 700;
+ 
+  
+ 
+  text-align:left;
+
+  width: fit-content;
+}
+
+.esg-profile-company .thrid-party-data-rating-data{
+  color: #ceced2;
+  font-family: "Open Sans", Helvetica;
+  font-size: 12px;
+  font-weight: 600;
+
+
+
+  text-align: center;
+ 
+  width: fit-content;
+}

@@ -1,0 +1,50 @@
+.try-pro-section {
+  height: 4.25rem; /* Adjusted */
+    position: relative;
+    width: 6.9375rem; /* Adjusted */
+  }
+
+  .try-pro-section button{ all: unset; 
+  }
+
+  
+  .try-pro-section .text-wrapper-6 {
+    color: #ceced2;
+    font-family: "Open Sans", Helvetica;
+    font-size: 0.95rem; /* Adjusted */
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 10.8px;
+    position: absolute;
+    text-align: center;
+    top: -1px;
+    white-space: nowrap;
+  }
+  
+  .try-pro-section .description {
+    color: #65656c;
+    font-family: "Open Sans", Helvetica;
+    font-size: 0.825rem; /* Adjusted */
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 11px;
+    position: absolute;
+    top: 19px;
+    width: 120px;
+  }
+  
+  .try-pro-section .text-wrapper-7 {
+    color: #007aff;
+    font-family: "Open Sans", Helvetica;
+    font-size: 1.025rem; /* Adjusted */
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 11px;
+    position: absolute;
+    top: 56px;
+    white-space: nowrap;
+  }
+  

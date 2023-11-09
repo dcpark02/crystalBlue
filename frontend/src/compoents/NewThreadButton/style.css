@@ -1,0 +1,45 @@
+.new-thread-button {
+  background-color: #171719;
+  border: 2px solid;
+  border-color: #38383a;
+  border-radius: 0.9375rem; /* Adjusted */
+  height: 2.5rem; /* Adjusted */
+  width: 10rem; /* Adjusted */
+  margin: 0 auto; /* center horizontally */
+}
+
+.new-thread-button .frame {
+  align-items: center;
+  display: flex;
+  gap: 3px;
+  height: 11px;
+  justify-content: center;
+  /* left: 30px; */
+  position: relative;
+  /* top: 6px; */
+  width: 77px;
+  margin: auto;
+}
+
+.new-thread-button .button-img {
+  
+  /* margin-bottom: -0.9px;
+  margin-top: -11.4px; */
+  position: relative;
+  height: 1.4rem; /* Adjusted */
+  width: 1.4rem; /* Adjusted */
+}
+
+.new-thread-button .text-wrapper {
+  color: #65656d;
+  font-family: "Open Sans", Helvetica;
+  font-size: 1rem; /* Adjusted */
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 11.7px;
+  /* margin-top: -11.4px; */
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}

@@ -1,0 +1,23 @@
+.sign-up-button {
+  all: unset;
+  background-color: #007aff;
+  border-radius: 0.9375rem; /* Adjusted */
+  box-sizing: border-box;
+  height: 2rem; /* Adjusted */
+  position: relative;
+  width: 160px; /* Adjusted */
+}
+
+.sign-up-button .div {
+  color: #ffffff;
+  font-family: "Open Sans", Helvetica;
+  font-size: 1.2rem; /* Adjusted */
+  font-weight: 700;
+ 
+  letter-spacing: 0;
+  line-height: 12.6px;
+  margin: 0 auto;
+  text-align: center;
+ 
+  white-space: nowrap;
+}

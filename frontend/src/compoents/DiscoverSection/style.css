@@ -1,0 +1,49 @@
+.discover-section-in {
+    height: 264px;
+    position: relative;
+    width: 711px;
+  }
+  
+  .discover-section-in .frame-31 {
+    height: 33px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 33px;
+  }
+  
+  .discover-section-in .text-wrapper-33 {
+    color: #ceced2;
+    font-family: "Open Sans", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    left: 37px;
+    letter-spacing: 0;
+    line-height: 25.6px;
+    position: absolute;
+    text-align: center;
+    top: 6px;
+    width: 123px;
+  }
+  
+  .discover-section-in .rectangle-7 {
+    background-color: #202025;
+    height: 1px;
+    left: 4px;
+    position: absolute;
+    top: 52px;
+    width: 707px;
+  }
+  
+  .discover-section-in .discover-suggestion-prompt {
+    left: 1px !important;
+    position: absolute !important;
+    top: 174px !important;
+  }
+  
+  .discover-section-in .discover-suggestion-instance {
+    left: 5px !important;
+    position: absolute !important;
+    top: 65px !important;
+  }
+  

@@ -1,0 +1,77 @@
+.scenarioA-container {
+  margin-left: 12vw; /* Added to account for the width of ChatHistory */
+  width: calc(100vw - 12vw); /* Subtracting the width of ChatHistory */
+  /* height: 130vh; */
+  background-color: #171719;
+  border-radius: 5px;
+  overflow-y: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.user-profile-div {
+  width: 100%;
+  
+  background-color: #171719;
+  position: sticky;
+  top: 0;
+  z-index: 2;  /* This ensures the div stays on top of other content */
+  border-bottom: 0.5px solid #38383a;;
+}
+.chat-and-data-container {
+  display: flex;
+  min-height: cal(100vh - 34px);
+}
+
+.chatbot-container {
+  flex: 0.47;  /* 47% of the parent width */
+  display: flex;
+  padding: 10px;  /* Provides some breathing space */
+  align-items: center;  /* Horizontally center the children */
+  border-right: 0.5px solid #38383a; /* Add this line */
+  flex-direction: column; /* Stack children vertically */
+  overflow-y: auto; /* This ensures that if the content overflows, the scrollbar appears */
+  position: relative; /* This ensures sticky works relative to this container */
+  padding-bottom: 60px; /* or whatever height is necessary to account for the FollowUpInputText */
+  min-height: calc(100vh - 34px);
+}
+.chatbot-container .follow-up-input-text-instance{
+  position: fixed;
+  bottom:  10px; 
+  z-index: 2; /* To ensure it stays on top of other content */
+  
+  width: 100%; /* Ensure it spans the entire width */
+ 
+}
+.chatbot-container .question-section-instance{
+  
+}
+/* .chatbot-container p {
+  word-wrap: break-word; 
+  width:100px;
+  color: #ceced2;
+    font-family: "Open Sans", Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 15.4px;
+} */
+
+
+.data-visual-container {
+  flex: 0.53;  /* 53% of the parent width */
+  min-height: calc(100vh - 34px);
+  flex-direction: column; /* Stack children vertically */
+  overflow-y: auto; /* This ensures that if the content overflows, the scrollbar appears */
+  display: flex;
+  padding: 10px;  /* Provides some breathing space */
+  align-items: center;  /* Horizontally center the children, if needed */
+}
+.data-visual-container .dataVisualization-instance{
+ 
+}
+
+.data-visual-container .companyESGProfile-instance{
+ 
+}

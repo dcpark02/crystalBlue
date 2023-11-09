@@ -1,0 +1,89 @@
+/* MainPanel.css */
+.main-panel {
+  background-color: #171719;
+  border-radius: 5px;
+  min-height:115vh;
+  margin-left: 12%;
+  width: calc(88vw );
+  min-width: 30vw;
+  
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center children horizontally */
+  overflow-y: auto;  /* enables vertical scrolling if the content overflows */
+}
+
+.main-panel > * {
+  margin: 10px 0;
+}
+
+.main-panel .big-header-home-page-instance {
+    height: 76px;
+}
+
+.main-panel .muti-line-input-text-area {
+    background-color: #202025;
+    border-radius: 5px;
+}
+
+.main-panel .try-asking-section-instance {
+}
+/* 
+.main-panel .frame-32 {
+  align-items: center;
+  display: inline-flex;
+  gap: 4px;
+  justify-content:left;
+  
+} */
+.main-panel .esg-profiles-header{
+  position: relative;
+  height: 35px;
+
+}
+.main-panel .frame-33 {
+    height: 33px;
+    width: 33px;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.main-panel .text-wrapper-34 {
+    color: #ceced2;
+    font-family: "Open Sans", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    top: 10px;
+    left:37px;
+  
+}
+
+.main-panel .esg-profile1 {
+  margin-bottom: 5px;
+}
+
+.main-panel .esg-profile2 {
+ 
+}
+
+.main-panel .discover-section-in-home-page {
+}
+
+.main-panel .footer {
+    align-items: flex-start;
+    display: flex;
+    gap: 19px;
+    height: 10px;
+    width: 234px;
+}
+
+.main-panel .text-wrapper-35, .main-panel .text-wrapper-36 {
+    color: #6c6c71;
+    font-family: "Open Sans", Helvetica;
+    font-size: 9px;
+    font-weight: 600;
+    text-align: center;
+}

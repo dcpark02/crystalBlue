@@ -1,0 +1,33 @@
+.header-container {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  padding: 19px 3px;
+  position: relative;
+  width: 438px;
+}
+
+.header-text {
+  color: rgba(206, 206, 210, 1);
+  font-family: "Open Sans", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 38.4px;
+  margin-left: -29px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.emphasis-text {
+  font-weight: 700;
+}
+
+.highlighted-text {
+  font-style: italic;
+  font-weight: 700;
+}

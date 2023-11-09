@@ -1,0 +1,51 @@
+.sourcesection {
+    height: auto;
+    position: relative;
+    width: 367px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  /* Creates 2 columns */
+    grid-gap: 5px 2px;  /* Gap between rows and columns */
+    align-items: start;
+  }
+  
+  .sourcesection .frame-18 {
+    align-items: center;
+    display: flex;
+    gap: 1px;
+    height: 16px;
+    justify-content: center;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 67px;
+    grid-column: span 2;
+  }
+  
+  .sourcesection .layer-4 {
+    height: 16px;
+    position: relative;
+    width: 16px;
+  }
+  
+  .sourcesection .text-wrapper-20 {
+    color: #007aff;
+    font-family: "Open Sans", Helvetica;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 13.2px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .sourcesection .sourceitem-instance,
+.sourcesection .sourceitem-instance-2,
+.sourcesection .sourceitem-instance-3,
+.sourcesection .overlap-4 {
+    position: relative; /* Reset to default */
+    left: auto;
+    top: auto;
+}

@@ -1,0 +1,83 @@
+.muti-line-input-text {
+  background-image: url(https://generation-sessions.s3.amazonaws.com/4f132d07de2f178cab8f98b183483a80/img/rectangle-8.png);
+  background-size: 100% 100%;
+  height: 130px;
+  position: relative;
+  width: 690px;
+}
+
+.muti-line-input-text .ask-ESG-related {
+  background-color: transparent;
+  border: 0;
+  color: #6c6c71;
+  font-family: "Open Sans", Helvetica;
+  font-size: 15px;
+  font-weight: 600;
+  height: 68px;
+  left: 25px;
+  letter-spacing: 0;
+  line-height: 16.5px;
+  padding: 0;
+  position: absolute;
+  top: 16px;
+  width: 637px;
+  resize: none;
+}
+
+.muti-line-input-text .focus-button-instance {
+  left: 19px;
+  position: absolute;
+  top: 88px;
+  width: 64px;
+}
+
+.muti-line-input-text .frame-9 {
+  height: 31px;
+  left: 645px;
+  position: absolute;
+  top: 85px;
+  width: 31px;
+}
+
+.sidebox-container {
+  position: absolute;
+  top:77px;
+  left: 90px;
+  width: 300px; /* Wider to accommodate side by side options */
+  background-color: #202025 ;
+  border: 0.5px solid  #6c6c71;
+  border-radius: 5px;
+  display: flex; /* To display options side by side */
+}
+
+.option-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  /* border-right: 1px solid #eee; */
+}
+
+.option-logo {
+  width: 14px;
+  height: 14px;
+  margin-right: 10px;
+}
+
+.option-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.option-name {
+  font-family: "Open Sans", Helvetica;
+  font-size: 11px; /* Made the font-size larger */
+  color: #ffffff; /* Updated color */
+  margin-bottom: 4px;
+}
+
+.option-description {
+  font-family: "Open Sans", Helvetica;
+  font-size: 9px;
+  color: #ffffff; /* Updated color */
+}

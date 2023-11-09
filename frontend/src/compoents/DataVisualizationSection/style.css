@@ -1,0 +1,86 @@
+
+.data-visual-tag {
+    align-items: center;
+    display: flex;
+    gap: 4px;
+    height: 16px;
+    left: 2px;
+    position: relative;
+    top: 0;
+    width: 334px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+  
+  .data-visual-icon {
+    height: 16px;
+    position: relative;
+    width: 16px;
+  }
+  
+  .data-visual-tag .text-wrapper-17 {
+    color: #026de3;
+    font-family: "Open Sans", Helvetica;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 13.2px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+.data-visulazation {
+    background-color: #202025;
+    border-radius: 5px;
+    height: 400px;
+    position: relative;
+    width: 840px;
+    padding-top: 30px;
+    display: flex;        /* Turn this into a flex container */
+    flex-direction: column; /* Stack children vertically */
+    margin-bottom: 70px;
+  }
+
+  .react-tabs__tab-panel {
+    flex: 1;             /* Allow it to consume all available space */
+    overflow: auto;      /* Add this if you want the content to scroll if it's too big */
+}
+.react-tabs__tab--selected {
+    box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.1); /* This adds a subtle shadow */
+    transform: translateY(-3px); /* This moves the tab up by 3 pixels */
+    background-color: #202025; /* Use the background color of the container to make it blend */
+   
+}
+.react-tabs__tab--selected .my-selected-tab {
+    color: #026de3;  /* Blue text color for the nested class in the selected tab */
+}
+
+  .graphnavigationbar {
+    align-items: flex-end;
+    display: inline-flex;
+    gap: 30px;
+    justify-content: flex-end;
+    position: absolute;   /* changed from relative to absolute */
+    margin-bottom: 10px;
+    height: 11px !important;
+    width: 192px !important;
+    top: 10px;           /* set it to 10px from the top of the container */
+    right: 10px;         /* set it to 10px from the right of the container */
+}
+
+  
+
+  .graphnavigationbar .text-wrapper-33 {
+    color: white;
+    font-family: "Open Sans", Helvetica;
+    font-size: 7px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 11.2px;
+    margin-top: 1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  

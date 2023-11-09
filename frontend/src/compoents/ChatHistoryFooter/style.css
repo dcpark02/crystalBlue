@@ -1,0 +1,63 @@
+.chathistory-footer {
+    height: 19px;
+    position: relative;
+    width: 160px;
+  }
+  
+  .chathistory-footer .rectangle {
+    background-color: #65656c;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  
+  .chathistory-footer .frame-5 {
+    align-items: center;
+    display: flex;
+    gap: 12px;
+    height: 10px;
+    justify-content: center;
+    left: 20px;
+    position: absolute;
+    top: 9px;
+    width: 160px;
+  }
+  
+  .chathistory-footer .frame-6 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 1px;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .chathistory-footer .frame-7 {
+    flex: 0 0 auto;
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+  }
+  
+  .chathistory-footer .text-wrapper-8 {
+    color: #65656c;
+    font-family: "Open Sans", Helvetica;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 9.9px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .chathistory-footer .img-2 {
+    height: 1rem;
+    position: relative;
+    width: 1rem;
+  }
+  

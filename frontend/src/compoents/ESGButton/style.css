@@ -1,0 +1,119 @@
+.esgbutton {
+    align-items: flex-end;
+    display: flex;
+    gap: 10px;
+    height: 254px;
+    position: relative;
+    width: 656px;
+    margin-top: 10px;
+  }
+  
+  .esgbutton .frame-27 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .esgbutton .frame-28 {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    height: 27px;
+    justify-content: center;
+    position: relative;
+    width: 141px;
+  }
+  
+  .esgbutton .img-5 {
+    height: 27px;
+    position: relative;
+    width: 27px;
+  }
+  
+  .esgbutton .text-wrapper-24 {
+    color: #ceced2;
+    font-family: "Open Sans", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 17.6px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .esgbutton .frame-29 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 4px;
+    position: relative;
+  }
+  
+  .esgbutton .frame-30 {
+    align-items: flex-end;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 4px;
+    position: relative;
+  }
+  
+  .esgbutton .e-WEB-goal {
+    height: 68px;
+    object-fit: cover;
+    position: relative;
+    width: 68px;
+  }
+  
+  .esgbutton .frame-31 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 4px;
+    position: relative;
+  }
+  
+  .esgbutton .frame-32 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 4px;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .esgbutton .frame-33 {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    height: 27px;
+    justify-content: center;
+    position: relative;
+    width: 84px;
+  }
+  
+  .esgbutton .frame-34 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+  }
+  
+  .esgbutton .frame-35 {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    height: 27px;
+    justify-content: center;
+    position: relative;
+    width: 133px;
+  }
+  

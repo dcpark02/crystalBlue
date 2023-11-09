@@ -1,0 +1,82 @@
+.chathistory {
+  background-color: #202025;
+  height: 120vh;
+  /* position: fixed; */
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 12vw;  /* 20% of parent width instead of 12vw */
+  /* min-width: 20vw;   */
+  
+  display: grid;
+  grid-template-rows: auto repeat(4, auto) 1fr auto auto;
+  gap: 20px;
+  padding: 10px 0;
+  overflow-y: auto;
+}
+
+.chathistory .crystalblue {
+  max-width: 80%;
+  height: auto;
+  
+  margin: 0 auto;
+  object-fit: cover;
+   
+  
+}
+
+.chathistory .frame-8 {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  justify-content: center;
+  align-items: flex-start; /* Aligns to the left of the container */
+  width: 100%;
+  
+
+}
+
+.chathistory .design-component-instance-node {
+  flex: 0 0 auto;
+  margin-left: 14%;
+ 
+  
+}
+
+.chathistory .new-thread-button-instance {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: center;
+}
+
+.chathistory .sign-up-button-instance {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.chathistory .try-pro-section-instance {
+  position: fixed;
+  bottom: 50px; /* This is the height of the ChatHistoryFooter */
+  
+  
+  left:25px;
+  width: 12vw;
+  min-width: 160px; /* This ensures it never gets too narrow */
+  display: flex;
+  flex-direction: column;
+}
+
+.chathistory .chathistory-footer-instance {
+  position: fixed;
+  left: 0; /* Ensures it's aligned to the left edge of the viewport */
+  bottom: 10px;
+  margin: 0 auto;
+  width: 12vw;
+  min-width: 160px; /* This ensures it never gets too narrow */
+  display: flex;
+  flex-direction: column;
+}

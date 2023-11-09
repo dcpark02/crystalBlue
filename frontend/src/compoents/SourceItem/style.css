@@ -1,0 +1,69 @@
+.sourceitem {
+  height: auto;
+  width: 177px;
+}
+
+.sourceitem .overlap-group {
+  background-color: #171719;
+  border: 0.5px solid;
+  border-color: #65656d;
+  border-radius: 5px;
+  height: 51px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 177px;
+}
+
+.sourceitem .top-content {
+  width: 100%; 
+}
+
+.sourceitem .text-wrapper-18 {
+  color: #ceced2;
+  font-family: "Open Sans", Helvetica;
+  font-size: 8px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 8.8px;
+  width: 169px;
+  word-wrap: break-word;
+  margin: 4px 3px;
+}
+
+.sourceitem .bottom-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 3px;
+}
+
+.sourceitem .frame-16 {
+  align-items: center;
+  display: flex;
+  gap: 4px;
+  height: 11px;
+  justify-content: center;
+}
+
+.sourceitem .favicon {
+  height: 11px;
+  object-fit: cover;
+  width: 11px;
+}
+
+.sourceitem .text-wrapper-19 {
+  color: #6e6e76;
+  font-family: "Open Sans", Helvetica;
+  font-size: 8px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 8.8px;
+  white-space: nowrap;
+}
+
+.sourceitem .frame-17 {
+  height: 11px;
+  width: 11px;
+}
