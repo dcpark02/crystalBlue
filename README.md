@@ -1,9 +1,9 @@
 # CrystalBlue Chatbot WebApp
 
 ## _Project description_ 
-This is a comprehensive Chatbot Webapp tailored to address questions on ESG (Environmental, Social, and Governance) and SDG (Sustainable Development Goals). It features data visualization capabilities, enabling users to track ESG progress through timeline charts and access detailed ESG metrics and formulas.
+crystalBlue AI WebApp is a sophisticated chatbot application designed to address inquiries related to ESG (Environmental, Social, and Governance) and SDG (Sustainable Development Goals). The platform boasts robust data visualization capabilities, empowering users to monitor ESG progress through interactive timeline charts while providing access to detailed ESG metrics and formulas.
 
-For the backend, the tech stack comprises LangChain, Pinecone, JavaScript, and OpenAI. LangChain facilitates the development of scalable AI/LLM applications and chatbots. Pinecone serves as a vector store, housing text embeddings and various documents (e.g., PDF, txt). Utilizing the QA conversation chain paired with the Pinecone database, the system efficiently retrieves relevant content and produces answers.
+The backend leverages a cutting-edge technology stack, including LangChain, Pinecone, JavaScript, and OpenAI. LangChain facilitates the development of scalable AI/LLM applications and chatbots, while Pinecone serves as a vector store housing text embeddings and various document types. Through a seamless integration of the QA conversation chain and the Pinecone database, the system efficiently retrieves relevant content and delivers accurate responses. On the frontend, we utilize React.js, ECharts, and ReactFlow to create a dynamic and user-friendly interface.
 
 For the frontend, the tech stack includes React.js, ECharts, and ReactFlow.
 ## _tech stack_
@@ -34,17 +34,17 @@ For the frontend, the tech stack includes React.js, ECharts, and ReactFlow.
 ## _prereq to run the code_
 1. prerequeiste:  
 
-   install the Node.js with NPM, version >= 18
+   Ensure Node.js with NPM is installed (version >= 18).
   
-2. install the vite framework for frontend  
+2. Install the Vite framework for frontend using the command: 
      ```
    npm create vite@latest
      ```
-3. Clone the repo or download the ZIP:  
+3. Clone the repository or download the ZIP: 
     ```
     git clone [github https url]
     ```
-4. install packages for frontend and backend:  
+4. Install packages for frontend and backend:
 
    cd to the frontend folder and then run:
    ```
@@ -54,9 +54,10 @@ For the frontend, the tech stack includes React.js, ECharts, and ReactFlow.
    ```
    npm install
    ```
-   After installation, you should see node_moduels folder
+   After installation, the node_modules folder should be present.
+
 ### _Guide to spin up backend server_    
-1. Config the .env file and the namespace in backend 
+1. Configure the .env file and the namespace in the backend.
    ```
    ORGANIZATION="" 
    OPENAI_API_KEY=""
@@ -69,26 +70,26 @@ For the frontend, the tech stack includes React.js, ECharts, and ReactFlow.
    BBC_MAXID = 768 
    MSCI_ITEMNAME = Apple 
    ```
-   * Vist openai to retrive the API keys and organzation
-   * visit pinecone to retrive the API key and environment
-   * change the max ID to fetch the most-updated article from the web scrawler server
-   * cd to the pineconeConfig folder and go to the pinecone.js file, replace the `index name and name space  
+   * Visit OpenAI to retrieve the API keys and organization.
+   * Visit Pinecone to retrieve the API key and environment.
+   * Adjust the max ID to fetch the most updated articles from the web scrawler server.
+   * In the pineconeConfig folder, go to the pinecone.js file, and replace the index name and namespace.
 
-2. Fectch all articles from the web scrawler API endpoint and store into docs folder:
+2. Fetch all articles from the web scrawler API endpoint and store them into the docs folder:
    
-    in the backend folder, run:
+     In the backend folder, run:
      ```
      node fetchArticles.js
      ```
      then you should see a folder named "docs" be created and articles in it.
      
-3. Ingest the documents stored in the docs folder into pinecone database **if you haven't store the embedding to the databse** 
+3. Ingest the documents stored in the docs folder into the Pinecone database (if not done previously):** 
 
-    run the command in the terminal or using node to run the JS file 
+    Run the command in the terminal or use a node to run the JS file. 
     ```
     npm run ingest 
     ```
-    after run the command, check the Pinecone dashboard to verify your namespace and vectors habe been added
+    After running the command, check the Pinecone dashboard to verify your namespace and vectors have been added.
 
 4. Run the backend server:
 
@@ -96,24 +97,24 @@ For the frontend, the tech stack includes React.js, ECharts, and ReactFlow.
    ```
    node server.js
    ```
-   to spin up the server on port 8000
+   This command will spin up the server on port 8000.
 
 ### _Guide to run the frontend_
 
-1. cd to the frontend and run:
+1. Navigate to the frontend folder and run:
 
    ```
    npm run dev
    ```
-   the frontend should spin at localhost port 5173, open the broswer to see it:
+  The frontend should be accessible at localhost port 5173. Open the browser to view it.
    
 ## Further Work to Do
 1. Connect the backend to the frontend to achieve a full-stack solution.
-2. Fetch the MAX number of articles from another API instead of hardcoding it in the `.env` file.
-3. Determine a method to fetch only the articles that haven't been embedded in the Pinecone database, and then store their embeddings into the database.
-4. The backend chatbot currently cannot add footnotes when answering questions based on the Pinecone database. Consider overwriting the LangChain framework to incorporate this feature.
-5. Introduce a community page feature for the frontend.
-6. Assess the frontend's loading speed and optimize it for better performance.
+2. Dynamically fetch the maximum number of articles from another API instead of hardcoding it in the .env file.
+3. Implement a method to fetch only articles not embedded in the Pinecone database and store their embeddings.
+4. Enhance the backend chatbot to include footnotes when answering questions based on the Pinecone database.
+5. Introduce a community page feature on the frontend.
+6. Evaluate and optimize the frontend's loading speed for improved performance.
  
 ## _Useful links_
 * [Lanchain JS docs](https://js.langchain.com/docs/get_started/introduction/)
