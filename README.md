@@ -1,7 +1,9 @@
 # crystalBlue AI WebApp
 
 ## _Project description_ 
-crystalBlue AI WebApp is a sophisticated chatbot application designed to address inquiries related to ESG (Environmental, Social, and Governance) and SDG (Sustainable Development Goals). The platform boasts robust data visualization capabilities, empowering users to monitor ESG progress through interactive timeline charts while providing access to detailed ESG metrics and formulas.
+crystalBlue is an AI WebApp that provides ESG (Environmental, Social, and Governance) ratings of corporations to everybody with transparency, in real-time.
+
+We feature a chatbot application designed to address inquiries related to ESG and SDG (Sustainable Development Goals). The platform boasts robust data visualization capabilities, empowering users to monitor ESG progress through interactive timeline charts while providing access to detailed ESG metrics and formulas.
 
 The backend leverages a cutting-edge technology stack, including LangChain, Pinecone, JavaScript, and OpenAI. LangChain facilitates the development of scalable AI/LLM applications and chatbots, while Pinecone serves as a vector store housing text embeddings and various document types. Through a seamless integration of the QA conversation chain and the Pinecone database, the system efficiently retrieves relevant content and delivers accurate responses. On the frontend, we utilize React.js, ECharts, and ReactFlow to create a dynamic and user-friendly interface.
 
